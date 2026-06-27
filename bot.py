@@ -242,4 +242,4 @@ if __name__ == '__main__':
             bot.infinity_polling()
         except Exception as e:
             print(f'Error: {e}')
-            time.sleep(10)5
+            time.sleep(10)
