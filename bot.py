@@ -223,6 +223,7 @@ def delete_plant(call):
         bot.answer_callback_query(call.id, '已删除')
         bot.edit_message_text(f'✅ 已删除：{deleted["name"]}', call.message.chat.id, call.message.message_id)
 
+
 @bot.message_handler(func=lambda m: m.text == '📖 时间表')
 def time_table(message):
     text = '📖 蔬菜成熟时间：\n\n'
